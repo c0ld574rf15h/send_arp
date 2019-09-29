@@ -55,6 +55,10 @@ int main(int argc, char* argv[]) {
     }
     addr_to_str(snd_hw_addr_str, "SENDER MAC", snd_hw_addr);
 
+    // 3. Send Fraud ARP Packet
+
+    send_arp_packet(handle, REP, hw_addr, trg_ip_addr, snd_hw_addr, snd_ip_addr);
+
     pcap_close(handle);
     return 0;
 }
