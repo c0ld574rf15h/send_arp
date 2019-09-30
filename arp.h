@@ -9,7 +9,7 @@ typedef uint32_t    DWORD;
 // Const value used in program
 #define HW_ADDR_LEN     6
 #define IP_ADDR_LEN     4
-#define FLTR_SZ_MAX     40
+#define FLTR_SZ_MAX     100
 #define SIZE_ETHERNET   14
 #define ARP_TYPE        0x0806
 #define ETH_TYPE        0X0001
